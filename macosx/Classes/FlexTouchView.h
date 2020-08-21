@@ -9,10 +9,11 @@
 
 
 #import <AppKit/AppKit.h>
+#import "UIView.h"
 
 typedef void(^OnTouchEvent)(BOOL bPressed);
 
-@interface FlexTouchView : NSView
+@interface FlexTouchView : UIView
 
 @property(nonatomic,copy) OnTouchEvent onTouch;
 
