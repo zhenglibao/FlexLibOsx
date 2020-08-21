@@ -9,6 +9,11 @@
 
 @implementation UITextField
 
+- (BOOL)isFlipped
+{
+    return YES;
+}
+
 - (instancetype)init
 {
     self = [super init];

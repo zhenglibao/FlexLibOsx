@@ -6,7 +6,7 @@
 //
 
 #import <AppKit/AppKit.h>
-
+#import "UIView.h"
 @class FlexRootView;
 
 NS_ASSUME_NONNULL_BEGIN
@@ -19,7 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
  * initWithFrame创建，也不能能直接设置frame，优点是更加轻量级，不会增加额外的视图层级
  */
 
-@interface FlexXmlBaseView : NSView
+@interface FlexXmlBaseView : UIView
 
 /// 用代码的方式创建视图组件
 -(instancetype)initWithRootView:(FlexRootView*)rootView;

@@ -9,7 +9,8 @@
 
 
 #import <AppKit/AppKit.h>
+#import "UIView.h"
 
-@interface FlexTouchMaskView : NSView
+@interface FlexTouchMaskView : UIView
 
 @end

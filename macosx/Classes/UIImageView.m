@@ -10,4 +10,9 @@
 
 @implementation UIImageView
 
+- (BOOL)isFlipped
+{
+    return YES;
+}
+
 @end
