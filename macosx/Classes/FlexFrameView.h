@@ -8,10 +8,10 @@
  */
 
 #import <AppKit/AppKit.h>
+#import "FlexRootView.h"
 
 typedef void (^FrameChanged)(CGRect);
 
-@class FlexRootView;
 
 // This view not use flexlbox layout
 // just set frame or make flexible width
