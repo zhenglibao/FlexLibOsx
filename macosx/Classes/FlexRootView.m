@@ -71,11 +71,6 @@ static NSInteger _compareInputView(NSView * _Nonnull f,
     return nil;
 }
 
-- (NSString *)description
-{
-    return [NSString stringWithFormat:@"%@: frame:%@", NSStringFromClass(self.class),NSStringFromRect(self.frame)];
-}
-
 -(NSObject*)owner
 {
     NSView* parent = self;

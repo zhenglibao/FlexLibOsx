@@ -79,7 +79,6 @@ static void* gObserverFrame = &gObserverFrame;
 }
 - (void)dealloc
 {
-    [self.view removeObserver:self forKeyPath:@"frame"];
 }
 
 -(void)hideKeyboard

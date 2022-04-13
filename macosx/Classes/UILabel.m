@@ -9,8 +9,6 @@
 #import "UILabel.h"
 #import "FlexUtils.h"
 
-
-
 @implementation UILabel
 
 - (BOOL)isFlipped
@@ -33,6 +31,15 @@
 {
     NSSize sz = [super sizeThatFits:size];
     return sz;
+}
+
+- (NSString *)text
+{
+    return self.stringValue;
+}
+- (void)setText:(NSString *)text
+{
+    self.stringValue = text;
 }
 
 FLEXSET(bgColor)
@@ -70,6 +77,10 @@ FLEXSET(color)
     if(clr!=nil){
         self.textColor = clr ;
     }
+}
+
+- (void)setAttributedText:(NSAttributedString *)attributedText {
+    self.attributedStringValue = attributedText;
 }
 
 @end

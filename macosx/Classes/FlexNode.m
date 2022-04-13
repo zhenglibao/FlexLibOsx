@@ -236,8 +236,8 @@ static void ApplyLayoutParam(YGLayout* layout,
                              NSString* key,
                              NSString* value)
 {
-    const char* k = [key cStringUsingEncoding:NSASCIIStringEncoding];
-    const char* v = [value cStringUsingEncoding:NSASCIIStringEncoding];
+    const char* k = [key cStringUsingEncoding:NSUTF8StringEncoding];
+    const char* v = [value cStringUsingEncoding:NSUTF8StringEncoding];
  
 #define SETENUMVALUE(item,table,type)      \
 if(strcmp(k,#item)==0)                \

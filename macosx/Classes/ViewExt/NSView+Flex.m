@@ -307,5 +307,9 @@ FLEXSET(value)
 {
     NSLog(@"%@ not implement value property, NSView.value should not be called.",self.class);
 }
+FLEXSET(alpha)
+{
+    self.layer.opacity = [sValue floatValue];
+}
 
 @end

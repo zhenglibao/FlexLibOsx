@@ -6,6 +6,7 @@
 //
 
 #import "UITextField.h"
+#import "FlexUtils.h"
 
 @implementation UITextField
 
@@ -34,6 +35,11 @@
 - (NSSize)sizeThatFits:(NSSize)size
 {
     return NSMakeSize(size.width, 40);
+}
+
+FLEXSET(placeHolder)
+{
+    self.placeholderString = sValue;
 }
 
 @end
