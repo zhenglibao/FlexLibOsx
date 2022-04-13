@@ -10,8 +10,7 @@
 
 
 #import <AppKit/AppKit.h>
-
-@class FlexRootView;
+#import "FlexRootView.h"
 
 @interface FlexBaseVC : NSViewController
 

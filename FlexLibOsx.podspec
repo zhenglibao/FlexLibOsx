@@ -31,9 +31,9 @@ It's a layout framework based on yoga engine. The main purpose is to provide eas
 
   s.subspec 'standard' do |ss|
     ss.source_files = 'macosx/Classes/**/*'
-    ss.resource_bundles = {
-       'FlexLib' => ['macosx/Assets/*']
-    }
+#    ss.resource_bundles = {
+#       'FlexLib' => ['macosx/Assets/*']
+#    }
   
     ss.dependency 'Yoga', '1.14.0'
     ss.library = 'xml2'
