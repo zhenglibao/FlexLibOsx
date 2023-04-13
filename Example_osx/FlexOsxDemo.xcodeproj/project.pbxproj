@@ -134,7 +134,6 @@
 				D28660142386656300FBFA98 /* Sources */,
 				D28660152386656300FBFA98 /* Frameworks */,
 				D28660162386656300FBFA98 /* Resources */,
-				24E1ED35D2C81C20D6F67823 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,23 +192,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		24E1ED35D2C81C20D6F67823 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FlexOsxDemo/Pods-FlexOsxDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FlexOsxDemo/Pods-FlexOsxDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlexOsxDemo/Pods-FlexOsxDemo-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		AFDCC458380FF55213D5FA38 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

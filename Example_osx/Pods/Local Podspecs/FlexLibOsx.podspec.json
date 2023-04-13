@@ -3,7 +3,7 @@
   "version": "2.7.0",
   "summary": "An obj-c flex layout framework for mac",
   "description": "It's a layout framework based on yoga engine. The main purpose is to provide easy and fast usage.",
-  "homepage": "https://github.com/zhenglibao/FlexLib",
+  "homepage": "https://github.com/zhenglibao/FlexLibOsx",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "798393829@qq.com": "798393829@qq.com"
   },
   "source": {
-    "git": "https://github.com/zhenglibao/FlexLib.git",
+    "git": "https://github.com/zhenglibao/FlexLibOsx.git",
     "tag": "2.7.0"
   },
   "platforms": {
@@ -23,20 +23,11 @@
     {
       "name": "standard",
       "source_files": "macosx/Classes/**/*",
-      "resource_bundles": {
-        "FlexLib": [
-          "macosx/Assets/*"
-        ]
-      },
-      "dependencies": {
-        "Yoga": [
-          "1.14.0"
-        ]
-      },
       "libraries": "xml2",
       "xcconfig": {
         "HEADER_SEARCH_PATHS": "/usr/include/libxml2"
       },
+      "private_header_files": "FlexLib/Classes/yoga/*.h",
       "exclude_files": "macosx/Classes/GDataXMLNode.{h,m}",
       "subspecs": [
         {

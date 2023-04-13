@@ -3,26 +3,18 @@ PODS:
     - FlexLibOsx/standard (= 2.7.0)
   - FlexLibOsx/standard (2.7.0):
     - FlexLibOsx/standard/no-arc (= 2.7.0)
-    - Yoga (= 1.14.0)
-  - FlexLibOsx/standard/no-arc (2.7.0):
-    - Yoga (= 1.14.0)
-  - Yoga (1.14.0)
+  - FlexLibOsx/standard/no-arc (2.7.0)
 
 DEPENDENCIES:
   - FlexLibOsx (from `../`)
-
-SPEC REPOS:
-  trunk:
-    - Yoga
 
 EXTERNAL SOURCES:
   FlexLibOsx:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FlexLibOsx: c72d47cfd5c238e9792d6fd1b858a60adb33bc67
-  Yoga: cff67a400f6b74dc38eb0bad4f156673d9aa980c
+  FlexLibOsx: 6906aaffc8b26bb41da2f81d81d737667200fdd1
 
 PODFILE CHECKSUM: dfb67265bac6a232067aeba4ba5c60696ffa2d68
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.11.3
